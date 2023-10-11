@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "todo"
+version = "0.1.0"
+description = ""
+authors = ["Viktor <viktor.glikhov89@mail.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+sqlalchemy = "^2.0.21"
+uvicorn = "^0.23.2"
+psycopg2 = {extras = ["binary"], version = "^2.9.9"}
+fastapi = {extras = ["standart"], version = "^0.103.2"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
