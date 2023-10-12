@@ -11,6 +11,7 @@ sqlalchemy = "^2.0.21"
 uvicorn = "^0.23.2"
 psycopg2 = {extras = ["binary"], version = "^2.9.9"}
 fastapi = {extras = ["standart"], version = "^0.103.2"}
+asyncpg = "^0.28.0"
 
 
 [build-system]
